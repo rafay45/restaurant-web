@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 90vh;
+    border: 1px solid black;
+    border: none;
+    position: relative;
+}
+header>img{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    width: 100%;
+    height: 90vh;
+    border: 1px solid black;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    opacity: 0.95;
+    border: none;
+}
+nav{
+    width: 100%;
+    border: 1px solid;
+    border: none;
+    display: flex;
+    height: 50px;
+    color: white;
+    position: absolute;
+    top: 8%;
+}
+nav>p{
+    display: inline-block;
+    margin-left: 12%;
+}
+nav>p>span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav>ul{
+    margin-left: 16%;
+    
+}
+nav>ul>li{
+    display: inline-block;
+    border: 1px solid;
+    margin-left: 40px;
+    border: none;
+    list-style-type: none;
+}
+nav>button{
+    width: 8%;
+    background-color:#FFC300;
+    border-radius: 6px;
+    border: 1px solid;
+    border: none;
+    margin-left: 8%;
+    height: 65%;
+}
+ul>li:hover{
+    cursor: pointer;
+}
+nav>button:hover{
+    cursor: pointer;
+}
+.first{
+    left: 33%;
+    position: absolute;
+    top: 25%;
+    color: white;
+}
+.first>p{
+    margin-left: 30px ;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 4em;
+    text-align: center;
+}
+.first>span{
+    font-weight: bolder;
+    font-size: 4em; 
+    color: #FFC300;
+}
+.para{
+    position: absolute;
+   top: 55%;
+   left: 29%;
+   color: white;
+}
+.button{
+    background-color: #FFC300;
+    width: 8%;
+    border: 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    padding: 4px;
+    border: none;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+.secondbutton{
+    color: #FFC300;
+    width: 8%;
+    border: 1px solid #FFC300;
+    border-radius: 6px;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+.button:hover{
+    cursor: pointer;
+}
+.secondbutton:hover{
+    cursor: pointer;
+    border-color: orange;
+}
+.title>p>span{
+    font-weight: bolder;
+    font-size: large;
+    
+}
+.title>p{
+    font-size: small;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+.menu{
+    margin-left: 50px;
+    display: inline-block;
+    color: white;
+    width: 8%;
+    border: 1px solid #FFC300;
+    border-radius: 6px;
+    padding: 4px; 
+    position: absolute;
+    top: 85%;
+    left: 32%;
+}
+.home{
+    margin-left: 50px;
+    display: inline-block;
+    color: white;
+    width: 8%;
+    border: 1px solid #FFC300;
+    border-radius: 6px;
+    padding: 4px; 
+    position: absolute;
+    top: 85%;
+    left: 43%;
+}
+.charges{
+    margin-left: 50px;
+    display: inline-block;
+    color: white;
+    width: 8%;
+    border: 1px solid #FFC300;
+    border-radius: 6px;
+    padding: 4px; 
+    position: absolute;
+    top: 85%;
+    left: 54%;
+}
+.thirdbutton{
+    background-color: #FFC300;
+    width: 8%;
+    border: 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    padding: 6px;
+    border: none;
+    margin-left: 60px;
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    left: 65%;
+}
+.menu:hover{
+    cursor: pointer;
+    border-color: rgb(255, 136, 0);
+}
+.home:hover{
+    cursor: pointer;
+    border-color: rgb(255, 136, 0);
+}
+.charges:hover{
+    cursor: pointer;
+    border-color:rgb(255, 136, 0);
+}
+.thirdbutton:hover{
+    cursor: pointer;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    position: relative;
+}
+.container>.box{
+    width: 25vw;
+    height: 50vh;
+    border: 1px solid black;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    border: none;
+}
+.container>.box>img{
+    width: 100%;
+    height: 100%;
+}
+
